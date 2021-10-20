@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: sans-serif;
+}
+#main-container{
+    position: relative;
+    width: 70%;
+    height: 500px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow:  0 0 5px 2px #999;
+}
+#header{
+    position: absolute;
+    top:0;
+    right: 0;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color:white;
+    background-color: rgb(6, 177, 219);
+    border-radius: 5px;
+}
+#left-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#temprature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.other-info{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow:  0 0 3px 1px #999;
+    padding: 10px 20px;
+    margin: 5px auto;
+}
+.error{
+    color: red;
+}
+#right-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 24px;
+    font-weight: 600;
+}
+input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    font-size: 20px;
+    box-shadow:  0 0 3px 0.5px #999 inset;
+    padding: 10px 20px;
+}
+input:focus{
+    box-shadow:  0 0 5px 2px rgb(0, 209, 224),0 0 3px 0.5px #999 inset;
+}
+#temp{
+    font-size: 100px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-shadow:  0 0 5px 0.5px #999;
+    padding: 20px 30px;
+}
+#deg{
+    font-size: 25px;
+}
